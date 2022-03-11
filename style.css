@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'proxima Nova alt';
+}
+
+a{
+  text-decoration: none;
+  color: #cae4e3;
+  padding: 5px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  height: 50px;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 15px;
+
+}
+
+i {
+  font-size: 30px;
+  padding-right: 30px;
+}
+
+a:hover{
+  background-color: #f2cac1;
+  border-radius: 3px;
+  color: #00454e;
+}
+
+.active{
+  background-color: #cae4e3;
+  border-radius: 3px;
+  color: #00454e;
+}
+
+.link-navn i{
+  padding-top: 20px;
+}
+
+#ucl{
+  width: 100%;
+  max-width: 15rem;
+}
+
+#nav-overskrift{
+  font-size: 1.5rem;
+}
+
+#h1-typ{
+  font-size: 50px;
+}
+
+#fa-h1-f0{
+  font-size: 50px;
+}
+
+#h1-font{
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+/*Knapper på farveside*/
+
+/*f1*/
+
+#copy-text-btn{
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+.knap-f1{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
+
+
+#text-f2{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/*f3*/
+
+#text-f3{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#copy-text-btn-f3{
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+.knap-f3{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
+
+
+.v0 { grid-area: a;}
+.v1 { grid-area: b;}
+.v2 { grid-area: c;}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+      'a a'
+      'b c';
+    grid-template-columns: 1fr 5fr;
+
+  }
+
+.v0{
+  padding: 2rem;
+  background-color: #cae4e3;
+}
+
+
+  .v1{
+    background-color: #00454e;
+    color: #cae4e3;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .v2{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #white;
+    margin-top: 4rem;
+    height: auto;
+  }
+
+/*Grid til farver*/
+
+  .f1 { grid-area: a;}
+  .f2 { grid-area: b;}
+  .f3 { grid-area: c;}
+  .f4 { grid-area: d;}
+  .f5 { grid-area: e;}
+  .f6 { grid-area: f;}
+
+  .v2{
+      display: grid;
+      grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f';
+        grid-gap: 50px;
+    }
+
+    .f0{
+      margin-right: 4rem;
+    }
+
+    .f1{
+      background-color: #00454e;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .f2{
+      background-color: #00454e;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .f3{
+      background-color: #cae4e3;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .f4{
+      background-color: #f2cac1;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .f5{
+      background-color: #fae76a;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .f6{
+      background-color: #FF0000;
+      width: 100%;
+      height: 10rem;
+    }
