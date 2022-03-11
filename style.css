@@ -6,7 +6,7 @@
 
 a{
   text-decoration: none;
-  color: #cae4e3;
+  color: #ffffff;
   padding: 5px;
   padding-left: 10px;
   display: flex;
@@ -26,7 +26,7 @@ i {
   padding-right: 30px;
 }
 
-a:hover{
+.nav-liste a:hover{
   background-color: #f2cac1;
   border-radius: 3px;
   color: #00454e;
@@ -85,7 +85,7 @@ a:hover{
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 4rem;
+  padding-top: 2rem;
 }
 
 
@@ -124,6 +124,39 @@ a:hover{
   margin-right: 1rem;
   margin-top: 4rem;
 }
+
+
+/*sammensat knapper*/
+.f-knapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.f-knapper button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.f-knapper button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.f-knapper:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.f-knapper button:hover {
+  background-color: #3e8e41;
+}
+
 
 
 .v0 { grid-area: a;}
