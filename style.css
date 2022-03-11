@@ -68,8 +68,15 @@ i {
 
 /*f1*/
 
+#text-f2{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
 #copy-text-btn{
-    background-color: #2196F3;
+    background-color: #282828;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -81,6 +88,16 @@ i {
     cursor: copy;
 }
 
+#copy-text-btn:hover{
+  background-color: #101010;
+}
+
+.f2 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
 .knap-f1{
   display: flex;
   justify-content: flex-end;
@@ -89,12 +106,6 @@ i {
 }
 
 
-#text-f2{
-  color: white;
-  font-size: 20px;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
 
 /*f3*/
 
@@ -106,7 +117,7 @@ i {
 }
 
 #copy-text-btn-f3{
-    background-color: #2196F3;
+    background-color: #282828;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -118,12 +129,190 @@ i {
     cursor: copy;
 }
 
+#copy-text-btn-f3:hover{
+  background-color: #101010;
+}
+
+.f3 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
 .knap-f3{
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
+
+
+/*f4*/
+
+#text-f4{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#copy-text-btn-f4{
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+#copy-text-btn-f4:hover{
+  background-color: #101010;
+}
+
+.f4 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.knap-f4{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+
+/*f5*/
+
+#text-f5{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#copy-text-btn-f5{
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+#copy-text-btn-f5:hover{
+  background-color: #101010;
+}
+
+.f5 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.knap-f5{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+
+/*f6*/
+
+#text-f6{
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#copy-text-btn-f6{
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+#copy-text-btn-f6:hover{
+  background-color: #101010;
+}
+
+.knap-f6{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.f6 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+
+/*f7*/
+
+#text-f7{
+  color: black;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#copy-text-btn-f7{
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: copy;
+}
+
+#copy-text-btn-f7:hover{
+  background-color: #101010;
+}
+
+.f7 p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.knap-f7{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+
+
 
 
 /*sammensat knapper*/
@@ -201,29 +390,28 @@ i {
   }
 
 /*Grid til farver*/
-
-  .f1 { grid-area: a;}
+  .f-knapper { grid-area: o;}
+  .f0 { grid-area: a;}
   .f2 { grid-area: b;}
   .f3 { grid-area: c;}
   .f4 { grid-area: d;}
   .f5 { grid-area: e;}
   .f6 { grid-area: f;}
+  .f7 { grid-area: g;}
 
-  .v2{
+  .grid-container{
       display: grid;
       grid-template-areas:
-        'a'
-        'b'
-        'c'
-        'd'
-        'e'
-        'f';
+        'a o'
+        'b b'
+        'c c'
+        'd d'
+        'e e'
+        'f f'
+        'g g';
         grid-gap: 50px;
     }
 
-    .f0{
-      margin-right: 4rem;
-    }
 
     .f1{
       background-color: #00454e;
@@ -259,4 +447,13 @@ i {
       background-color: #FF0000;
       width: 100%;
       height: 10rem;
+    }
+
+    .f7{
+      background-color: #FFFFFF;
+      width: 100%;
+      height: 10rem;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
     }
