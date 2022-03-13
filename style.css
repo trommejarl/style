@@ -412,7 +412,7 @@ word-break:break-all;
   .v2{
     padding-left: 4rem;
     padding-right: 4rem;
-    background-color: #white;
+    background-color: #FFFFFF;
     margin-top: 4rem;
     height: auto;
   }
@@ -477,6 +477,7 @@ word-break:break-all;
       height: 10rem;
     }
 
+<<<<<<< Updated upstream
     .f7{
       background-color: #FFFFFF;
       width: 100%;
@@ -485,3 +486,70 @@ word-break:break-all;
       border-color: black;
       border-width: 1px;
     }
+=======
+    .q1 { grid-area: a;}
+    .q2 { grid-area: b;}
+    .q3 { grid-area: c;}
+    .q4 { grid-area: d;}
+    .q5 { grid-area: e;}
+    .q0 { grid-area: f;}
+  
+    .v3{
+        display: grid;
+        grid-template-areas:
+          'f'
+          'a'
+          'b'
+          'c'
+          'd'
+          'e'
+          ;
+          grid-gap: 20px;
+      }
+  
+      .q0{
+        margin-right: 4rem;
+      }
+  
+      .q1{
+        width: 100%;
+        list-style-position: inside;
+      }
+  
+      .q2{
+        width: 100%;
+      }
+  
+      .q3{
+        width: 100%;
+      }
+  
+      .q4{
+        width: 100%;
+      }
+  
+      .q5{
+        width: 100%;
+      }
+
+      .t1 { grid-area: a;}
+      .t2 { grid-area: b;}
+      .t3 { grid-area: c;}
+      .t4 { grid-area: d;}
+      .t5 { grid-area: e;}
+      .t6 { grid-area: f;}
+
+      .v4{
+        display: grid;
+        grid-template-areas: 
+        'a a'
+        'b b'
+        'c d'
+        'e f';
+        grid-gap: 20px;
+      }
+
+
+  
+      
+>>>>>>> Stashed changes
