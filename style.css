@@ -553,3 +553,19 @@ word-break:break-all;
   
       
 >>>>>>> Stashed changes
+.s1 { grid-area: a;}
+.s2 { grid-area: b;}
+.s3 { grid-area: c;}
+.s4 { grid-area: d;}
+.s5 { grid-area: e;}
+.s6 { grid-area: f;}
+
+.v5{
+  display: grid;
+  grid-template-areas:
+  'a a'
+  'b b'
+  'c d'
+  'e f';
+  grid-gap:20px;
+}
