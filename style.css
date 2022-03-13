@@ -554,22 +554,25 @@ word-break:break-all;
       }
 
 
+      .ik1 {grid-area: a;}
+      .ik2 {grid-area: b;}
+      .ik3 {grid-area: c;}
+      .ik4 {grid-area: d;}
+      .ik5 {grid-area: e;}
+      .ik6 {grid-area: f;}
+      .ik7 {grid-area: g;}
+      .ik8 {grid-area: h;}
+      .ik9 {grid-area: i;}
 
-
->>>>>>> Stashed changes
-.s1 { grid-area: a;}
-.s2 { grid-area: b;}
-.s3 { grid-area: c;}
-.s4 { grid-area: d;}
-.s5 { grid-area: e;}
-.s6 { grid-area: f;}
-
-.v5{
-  display: grid;
-  grid-template-areas:
-  'a a'
-  'b b'
-  'c d'
-  'e f';
-  grid-gap:20px;
-}
+      .grid-ikoner{
+      display: grid;
+      grid-template-areas:
+      'a a'
+      'b b'
+      'c c'
+      'd e'
+      'f f'
+      'g g'
+      'h i';
+      column-gap: 5rem;
+      }
