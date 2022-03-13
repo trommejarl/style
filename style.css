@@ -55,6 +55,11 @@ i {
   font-size: 50px;
 }
 
+#h1-typ1{
+  font-size: 50px;
+}
+
+
 #fa-h1-f0{
   font-size: 50px;
 }
@@ -64,7 +69,30 @@ i {
   font-weight: bolder;
 }
 
+#h1-font1{
+  font-size: 100px;
+  font-weight: bolder;
+}
+
 /*Knapper på farveside*/
+
+.b-1{grid-area: a;}
+.b-2{grid-area: b;}
+.b-3{grid-area: c;}
+
+.grid-b{
+display: grid;
+grid-template-areas:
+'a a c'
+'b b c';
+column-gap: 5rem;
+}
+
+.b-2 p{
+bottom: 0px;
+height: 10rem;
+word-break:break-all;
+}
 
 /*f1*/
 
@@ -102,7 +130,7 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  padding-top: 2rem;
+  padding-top: 6.5rem;
 }
 
 
@@ -110,7 +138,7 @@ i {
 /*f3*/
 
 #text-f3{
-  color: white;
+  color: black;
   font-size: 20px;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -136,7 +164,7 @@ i {
 .f3 p {
   margin-left: 1rem;
   margin-top: 1rem;
-  color: white;
+  color: black;
 }
 
 
@@ -144,14 +172,14 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 
 /*f4*/
 
 #text-f4{
-  color: white;
+  color: black;
   font-size: 20px;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -177,7 +205,7 @@ i {
 .f4 p {
   margin-left: 1rem;
   margin-top: 1rem;
-  color: white;
+  color: black;
 }
 
 
@@ -185,14 +213,14 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 
 /*f5*/
 
 #text-f5{
-  color: white;
+  color: black;
   font-size: 20px;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -218,7 +246,7 @@ i {
 .f5 p {
   margin-left: 1rem;
   margin-top: 1rem;
-  color: white;
+  color: black;
 }
 
 
@@ -226,7 +254,7 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 
@@ -260,7 +288,7 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 .f6 p {
@@ -308,7 +336,7 @@ i {
   display: flex;
   justify-content: flex-end;
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 
@@ -375,7 +403,7 @@ i {
   .v1{
     background-color: #00454e;
     color: #cae4e3;
-    height: 100%;
+    height: 110%;
     padding-left: 10px;
     padding-top: 20px;
     padding-right: 20px;
