@@ -74,6 +74,10 @@ i {
   font-weight: bolder;
 }
 
+#h1-iko{
+  font-size: 50px;
+}
+
 /*Knapper på farveside*/
 
 .b-1{grid-area: a;}
@@ -493,7 +497,7 @@ word-break:break-all;
     .q4 { grid-area: d;}
     .q5 { grid-area: e;}
     .q0 { grid-area: f;}
-  
+
     .v3{
         display: grid;
         grid-template-areas:
@@ -506,28 +510,28 @@ word-break:break-all;
           ;
           grid-gap: 20px;
       }
-  
+
       .q0{
         margin-right: 4rem;
       }
-  
+
       .q1{
         width: 100%;
         list-style-position: inside;
       }
-  
+
       .q2{
         width: 100%;
       }
-  
+
       .q3{
         width: 100%;
       }
-  
+
       .q4{
         width: 100%;
       }
-  
+
       .q5{
         width: 100%;
       }
@@ -541,7 +545,7 @@ word-break:break-all;
 
       .v4{
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         'a a'
         'b b'
         'c d'
@@ -550,8 +554,8 @@ word-break:break-all;
       }
 
 
-  
-      
+
+
 >>>>>>> Stashed changes
 .s1 { grid-area: a;}
 .s2 { grid-area: b;}
