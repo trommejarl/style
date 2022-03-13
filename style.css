@@ -344,16 +344,12 @@ word-break:break-all;
 }
 
 
+/*sammensat knapper på farveside*/
 
-
-
-/*sammensat knapper*/
 .f-knapper{
   display: flex;
   justify-content: flex-end;
-}
-
-.menu-knapper{
+  align-items: center;
 }
 
 .f-knapper button {
@@ -367,7 +363,6 @@ word-break:break-all;
   border-right: none;
 }
 
-/* Clear floats (clearfix hack) */
 .f-knapper:after {
   content: "";
   clear: both;
@@ -383,7 +378,39 @@ word-break:break-all;
 }
 
 
+/*sammensat knapper på ikoner side*/
 
+.f-knapper-1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.f-knapper-1 button {
+  background-color: #00454e;
+  border: 1px solid #00454e;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.f-knapper-1 button:not(:last-child) {
+  border-right: none;
+}
+
+/* Clear floats (clearfix hack) */
+.f-knapper-1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.f-knapper-1 button:hover {
+  background-color: #f2cac1;
+}
+
+.f-knapper-1 a{
+  color: #ffffff;
+}
 
 .v0 { grid-area: a;}
 .v1 { grid-area: b;}
@@ -403,7 +430,6 @@ word-break:break-all;
   background-color: #cae4e3;
 }
 
-
   .v1{
     background-color: #00454e;
     color: #cae4e3;
@@ -420,6 +446,7 @@ word-break:break-all;
     margin-top: 4rem;
     height: auto;
   }
+
 
 /*Grid til farver*/
   .f-knapper { grid-area: o;}
@@ -441,9 +468,8 @@ word-break:break-all;
         'e e'
         'f f'
         'g g';
-        grid-gap: 50px;
+        grid-gap: 5rem;;
     }
-
 
     .f1{
       background-color: #00454e;
@@ -481,7 +507,7 @@ word-break:break-all;
       height: 10rem;
     }
 
-<<<<<<< Updated upstream
+
     .f7{
       background-color: #FFFFFF;
       width: 100%;
@@ -490,7 +516,8 @@ word-break:break-all;
       border-color: black;
       border-width: 1px;
     }
-=======
+
+
     .q1 { grid-area: a;}
     .q2 { grid-area: b;}
     .q3 { grid-area: c;}
@@ -553,9 +580,10 @@ word-break:break-all;
         grid-gap: 20px;
       }
 
+/*Grid på ikoner */
 
       .ik1 {grid-area: a;}
-      .ik2 {grid-area: b;}
+      .f-knapper-1 {grid-area: b;}
       .ik3 {grid-area: c;}
       .ik4 {grid-area: d;}
       .ik5 {grid-area: e;}
@@ -567,12 +595,11 @@ word-break:break-all;
       .grid-ikoner{
       display: grid;
       grid-template-areas:
-      'a a'
-      'b b'
+      'a b'
       'c c'
-      'd e'
-      'f f'
+      'd d'
+      'e f'
       'g g'
       'h i';
-      column-gap: 5rem;
+      grid-gap: 5rem;
       }
