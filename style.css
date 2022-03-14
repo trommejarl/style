@@ -603,3 +603,12 @@ word-break:break-all;
       'h i';
       grid-gap: 5rem;
       }
+
+      .kode-ikoner{
+        width: 100%;
+        height: 10rem;
+        background-color: #CAE4E3;
+        resize: none;
+        padding: 10px;
+        color: #00454E;
+      }

@@ -1,3 +1,5 @@
+console.log("main.js is running...");
+
 //*Knap kopier mørkeblå*//
 
 function copyText(htmlElement)
@@ -27,22 +29,6 @@ function ()
 
 //*Knap kopier lyseblå*//
 
-function copyText(htmlElement)
-{
-  if (!htmlElement){
-    return;
-}
-
-let elementText = htmlElement.innerText;
-
-let inputElement = document.createElement('input');
-inputElement.setAttribute('value', elementText);
-document.body.appendChild(inputElement);
-inputElement.select();
-document.execCommand('copy');
-inputElement.parentNode.removeChild(inputElement);
-
-}
 
 document.querySelector('#copy-text-btn-f3').onclick =
 function ()
@@ -55,22 +41,6 @@ function ()
 
 //*Knap kopier lyserød*//
 
-function copyText(htmlElement)
-{
-  if (!htmlElement){
-    return;
-}
-
-let elementText = htmlElement.innerText;
-
-let inputElement = document.createElement('input');
-inputElement.setAttribute('value', elementText);
-document.body.appendChild(inputElement);
-inputElement.select();
-document.execCommand('copy');
-inputElement.parentNode.removeChild(inputElement);
-
-}
 
 document.querySelector('#copy-text-btn-f4').onclick =
 function ()
@@ -82,22 +52,7 @@ function ()
 
 //*Knap kopier lysegul*//
 
-function copyText(htmlElement)
-{
-  if (!htmlElement){
-    return;
-}
 
-let elementText = htmlElement.innerText;
-
-let inputElement = document.createElement('input');
-inputElement.setAttribute('value', elementText);
-document.body.appendChild(inputElement);
-inputElement.select();
-document.execCommand('copy');
-inputElement.parentNode.removeChild(inputElement);
-
-}
 
 document.querySelector('#copy-text-btn-f5').onclick =
 function ()
@@ -110,22 +65,7 @@ function ()
 
 //*Knap kopier rød*//
 
-function copyText(htmlElement)
-{
-  if (!htmlElement){
-    return;
-}
 
-let elementText = htmlElement.innerText;
-
-let inputElement = document.createElement('input');
-inputElement.setAttribute('value', elementText);
-document.body.appendChild(inputElement);
-inputElement.select();
-document.execCommand('copy');
-inputElement.parentNode.removeChild(inputElement);
-
-}
 
 document.querySelector('#copy-text-btn-f6').onclick =
 function ()
@@ -138,22 +78,6 @@ function ()
 
 //*Knap kopier hvid*//
 
-function copyText(htmlElement)
-{
-  if (!htmlElement){
-    return;
-}
-
-let elementText = htmlElement.innerText;
-
-let inputElement = document.createElement('input');
-inputElement.setAttribute('value', elementText);
-document.body.appendChild(inputElement);
-inputElement.select();
-document.execCommand('copy');
-inputElement.parentNode.removeChild(inputElement);
-
-}
 
 document.querySelector('#copy-text-btn-f7').onclick =
 function ()
