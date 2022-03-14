@@ -29,7 +29,6 @@ function ()
 
 //*Knap kopier lyseblå*//
 
-
 document.querySelector('#copy-text-btn-f3').onclick =
 function ()
 {
@@ -38,9 +37,7 @@ function ()
   alert("Hex kode kopiret")
 }
 
-
 //*Knap kopier lyserød*//
-
 
 document.querySelector('#copy-text-btn-f4').onclick =
 function ()
@@ -52,8 +49,6 @@ function ()
 
 //*Knap kopier lysegul*//
 
-
-
 document.querySelector('#copy-text-btn-f5').onclick =
 function ()
 {
@@ -62,10 +57,7 @@ function ()
   alert("Hex kode kopiret")
 }
 
-
 //*Knap kopier rød*//
-
-
 
 document.querySelector('#copy-text-btn-f6').onclick =
 function ()
@@ -75,9 +67,7 @@ function ()
   alert("Hex kode kopiret")
 }
 
-
 //*Knap kopier hvid*//
-
 
 document.querySelector('#copy-text-btn-f7').onclick =
 function ()

@@ -612,3 +612,28 @@ word-break:break-all;
         padding: 10px;
         color: #00454E;
       }
+
+      /*grid der indeholder ikonerne*/
+      .ikon1 {grid-area: a;}
+      .ikon2 {grid-area: b;}
+      .ikon3 {grid-area: c;}
+      .ikon4 {grid-area: d;}
+      .ikon5 {grid-area: e;}
+      .ikon6 {grid-area: f;}
+      .ikon7 {grid-area: g;}
+      .ikon8 {grid-area: h;}
+      .ikon9 {grid-area: i;}
+      .ikon10 {grid-area: j;}
+
+
+      .ik4{
+      display: grid;
+      grid-template-areas:
+      'a b c d e f g h i j';
+      grid-gap: 0.5rem;
+      }
+
+      .ik4 i{
+        font-size: 50px;
+        color: #00454E;
+      }
