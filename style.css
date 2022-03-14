@@ -21,15 +21,16 @@ ul li {
 
 }
 
-i {
-  font-size: 30px;
+.iconer {
   padding-right: 30px;
+  width: 100%;
+  max-width: 2rem;
 }
 
 .nav-liste a:hover{
   background-color: #f2cac1;
   border-radius: 3px;
-  color: #00454e;
+
 }
 
 .active{
@@ -38,7 +39,7 @@ i {
   color: #00454e;
 }
 
-.link-navn i{
+.link-navn .iconer{
   padding-top: 20px;
 }
 
@@ -630,7 +631,7 @@ word-break:break-all;
       display: grid;
       grid-template-areas:
       'a b c d e f g h i j';
-      grid-gap: 0.5rem;
+      grid-gap: 0.2rem;
       }
 
       .ik4 i{
