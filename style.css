@@ -533,17 +533,18 @@ word-break:break-all;
     .q4 { grid-area: d;}
     .q5 { grid-area: e;}
     .q0 { grid-area: f;}
+    .q6 { grid-area; g;}
+    .q7 { grid-area; h;}
+    .q8 { grid-area; i;}
 
     .v3{
         display: grid;
         grid-template-areas:
-          'f'
-          'a'
-          'b'
-          'c'
-          'd'
-          'e'
-          ;
+          'f f'
+          'g c'
+          'h d'
+          'i e'
+          'a b';
           grid-gap: 20px;
       }
 
@@ -562,26 +563,62 @@ word-break:break-all;
 
       .q3{
         width: 100%;
+        font-size: 30px;
       }
 
       .q4{
         width: 100%;
+        font-size: 30px;
       }
 
       .q5{
         width: 100%;
+        Font-size: 30px;
       }
 
-    .o1{
+    .q6{
       font-size: 30px;
     }
 
-    .o2{
+    .q7{
       font-size: 14px;
     }
 
-    .o3{
+    .q8{
       font-size: 14px;
+    }
+
+    .h44{
+      height: 10rem;
+      max-height: 100%;
+      width: 100%;
+      max-width: 20rem;
+      border: none;
+      background-color: #CAE4E3;
+      color: #00454E;
+      padding: 2rem;
+    }
+
+    .h11{
+      height: 10rem;
+      max-height: 100%;
+      width: 100%;
+      max-width: 20rem;
+      border: none;
+      background-color: #CAE4E3;
+      color: #00454E;
+      padding: 2rem;
+    }
+
+    .p11{
+      height: 10rem;
+      max-height: 100%;
+      width: 100%;
+      max-width: 20rem;
+      border: none;
+      background-color: #CAE4E3;
+      color: #00454E;
+      padding: 2rem;
     }
 
       .t1 { grid-area: a;}
@@ -819,11 +856,18 @@ word-break:break-all;
     .menu-ikon{
       width: 100%;
       max-width: 50%;
-<<<<<<< Updated upstream
     }
-=======
+
+    .text{
+      height: 10rem;
+      max-height: 100%;
+      width: 100%;
+      max-width: 20rem;
+      border: none;
+      background-color: #CAE4E3;
+      color: #00454E;
+      padding: 2rem;
     }
->>>>>>> Stashed changes
 
 .v2 h3 {
   padding-top: 10rem;
