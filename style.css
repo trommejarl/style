@@ -607,12 +607,20 @@ word-break:break-all;
       'g g'
       'h i';
       grid-gap: 5rem;
+      grid-template-columns: 1fr 1fr;
       }
 
       .ik5{
         background-color: #CAE4E3;
         padding: 20px;
+
       }
+
+      .ik6{
+        width: 100%;
+      }
+
+
 
       .tal-1{
         font-size: 1rem;
@@ -625,6 +633,7 @@ word-break:break-all;
         border: none;
         background-color: #CAE4E3;
         color: #00454E;
+        max-width: 30rem;
       }
 
 
