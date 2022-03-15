@@ -662,3 +662,39 @@ word-break:break-all;
         font-size: 50px;
         color: #00454E;
       }
+
+
+      .log3 { grid-area: a;}
+      .log4 { grid-area: b;}
+      .log5 { grid-area: c;}
+
+      .log2{
+        display: grid;
+        grid-template-areas:
+        'c'
+        'a'
+        'b';
+        grid-gap: 5px;
+      }
+
+      .log3{
+        width: 100%;
+        max-width: 25rem;
+      }
+
+      .log4{
+        width: 100%;
+        max-width: 50%;
+      }
+
+      #logo{
+        width: 100%;
+        max-width: 25rem;
+      }
+
+      .log5{
+        font-size: 30px;
+        width: 100%;
+        max-width: 50%;
+        min-width: 28mm;
+      }
