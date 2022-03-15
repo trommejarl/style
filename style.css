@@ -30,6 +30,9 @@ ul li {
 .iconer-1 {
   width: 100%;
   max-width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-liste a:hover{
@@ -626,6 +629,11 @@ word-break:break-all;
         background-color: #CAE4E3;
         padding: 20px;
 
+      }
+
+      .ik9{
+        background-color: #CAE4E3;
+        padding: 20px;
       }
 
       .ik6{
