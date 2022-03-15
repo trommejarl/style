@@ -79,11 +79,90 @@
           o	Burgermenu: denne menu har tre steger som omdanner sig til et kryds når man aktiverer menuen. Teksen skal være højresat og hvid #FFFFFF, derudover er baggrundsfarven grøn #00454E.
           </div>
         <div class="m2"><img class="menu-ikon" src="pictures/iconer/ikon/menu.png"></div>
-        <div class="m3">Burger menu åben</div>
+        <div class="m3">Burger menu åben<br><textarea class="text"> <ul class="nav-links">
+          <li> <a href="#">Profil</a></li>
+          <li> <a href="tilmeld.html">Tilmeldinger</a></li>
+          <li> <a href="#">Kalender</a></li>
+          <li> <a href="#">Favoritter</a></li>
+          <li> <a href="begivenheder.html">Mine begivenhed</a></li>
+          <li> <a href="index.html">Opret begivenheder</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1">  </div>
+          <div class="line2">  </div>
+          <div class="line3">  </div>
+        </div>
+      Css
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color:black;
+        margin: 5px;
+        transition: all 0.3s ease;
+      }
+      
+      .burger{
+        display: none;
+        cursor: pointer;
+      
+        ></textarea></div>
         <div class="m4"><img class="burgermenu" src="pictures/iconer/ikon/burgermenu.png"></div>
-        <div class="m5">Header</div>
+        <div class="m5">Header<br><textarea class="text">  <div class="logo"></div><a href="prøve.html"><img id="logo" src="./billeder/ucllogo.png" alt="logo"></a></div nav{
+          Css
+          isplay: flex;
+          justify-content: space-between;
+          align-items: center;
+          min-height: 8vh;
+          background-color: #cae4e3;
+        
+        }
+        
+        .logo{
+        margin: 20px 10px;
+        }
+        
+        #logo{
+          width: 100%;
+          max-width: 250px;
+        }
+        ></textarea></div>
         <div class="m6"><img class="header" src="pictures/iconer/ikon/header.png"></div>
-        <div class="m7">Footer</div>
+        <div class="m7">Footer<br><textarea class="text">  <nav class="footer-nav">
+          <a href="prøve.html" class="nav-link">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/home.png" alt="ikon"/>
+            </a>
+          <a href="#" class="nav-link">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/two-tickets.png" alt="ikon"/>
+          </a>
+          <a href="#" class="nav-link">
+        <img src="https://img.icons8.com/windows/64/ffffff/planner.png" alt="ikon"/>
+            </a>
+          <a href="#" class="nav-link">
+      <img src="https://img.icons8.com/ios-glyphs/60/ffffff/like--v1.png" alt="ikon"/>
+      </a>
+        </nav>
+      Css
+      .nav-links {
+        display:flex;
+        max-height:50%;
+      }
+      
+      .nav-links ul{
+        list-style: none;
+        font-size: 20px;
+      }
+      .nav-links a{
+        text-decoration: none;
+        font-weight:bold;
+        font-size: 15px;
+        color: white;
+        text-align:right;
+        font-weight: bold;
+        line-height: 3;
+      
+      }
+      
+        ></textarea></div>
         <div class="m8"><img class="footer" src="pictures/iconer/ikon/footer.png"></div>
       </div>
     </div>
