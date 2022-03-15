@@ -639,6 +639,7 @@ word-break:break-all;
 
 
 
+
       /*grid der indeholder ikonerne*/
       .ikon1 {grid-area: a;}
       .ikon2 {grid-area: b;}
@@ -660,6 +661,31 @@ word-break:break-all;
       }
 
       .ik4 i{
+        font-size: 50px;
+        color: #00454E;
+      }
+
+      .ikon1-1 {grid-area: a;}
+      .ikon2-1 {grid-area: b;}
+      .ikon3-1 {grid-area: c;}
+      .ikon4-1 {grid-area: d;}
+      .ikon5-1 {grid-area: e;}
+      .ikon6-1 {grid-area: f;}
+      .ikon7-1 {grid-area: g;}
+      .ikon8-1 {grid-area: h;}
+      .ikon9-1 {grid-area: i;}
+      .ikon10-1 {grid-area: j;}
+
+
+      .ik7{
+      display: grid;
+      grid-template-areas:
+      'a b c d e f g h i j';
+      grid-gap: 0.2rem;
+      margin-top: 5rem;
+      }
+
+      .ik7 i{
         font-size: 50px;
         color: #00454E;
       }
