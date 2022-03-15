@@ -609,9 +609,14 @@ word-break:break-all;
       grid-gap: 5rem;
       }
 
-.ik5{
-  background-color: #CAE4E3;
-}
+      .ik5{
+        background-color: #CAE4E3;
+        padding: 20px;
+      }
+
+      .tal-1{
+        font-size: 1rem;
+      }
 
       .kode-ikoner{
         width: 100%;
@@ -619,7 +624,10 @@ word-break:break-all;
         resize: none;
         border: none;
         background-color: #CAE4E3;
+        color: #00454E;
       }
+
+
 
       /*grid der indeholder ikonerne*/
       .ikon1 {grid-area: a;}
