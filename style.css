@@ -756,7 +756,7 @@ word-break:break-all;
       }
 
       .log5{
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
 <<<<<<< Updated upstream
         max-width: 50%;
@@ -787,3 +787,45 @@ word-break:break-all;
       'g h';
       grid-gap: 5rem;
     }
+<<<<<<< Updated upstream
+=======
+    .m2{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .m4{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .m6{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .m8{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .footer{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .header{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .burgermenu{
+      width: 100%;
+      max-width: 50%;
+    }
+
+    .menu-ikon{
+      width: 100%;
+      max-width: 50%;
+    }
+>>>>>>> Stashed changes
