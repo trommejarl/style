@@ -772,17 +772,10 @@ word-break:break-all;
       .log5{
         font-size: 20px;
         width: 100%;
-<<<<<<< Updated upstream
         max-width: 50%;
         min-width: 28mm;
       }
-=======
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
+   
       .m1 { grid-area: a;}
       .m2 { grid-area: b;}
       .m3 { grid-area: c;}
@@ -801,8 +794,6 @@ word-break:break-all;
       'g h';
       grid-gap: 5rem;
     }
-<<<<<<< Updated upstream
-=======
     .m2{
       width: 100%;
       max-width: 50%;
@@ -841,6 +832,9 @@ word-break:break-all;
     .menu-ikon{
       width: 100%;
       max-width: 50%;
+<<<<<<< Updated upstream
+    }
+=======
     }
 >>>>>>> Stashed changes
 
