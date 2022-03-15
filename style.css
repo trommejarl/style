@@ -129,6 +129,19 @@ word-break:break-all;
     cursor: copy;
 }
 
+#myBtn{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+}
+
 #copy-text-btn:hover{
   background-color: #101010;
 }
