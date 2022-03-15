@@ -702,7 +702,7 @@ word-break:break-all;
       grid-template-areas:
       'a b c d e f g h i j';
       grid-gap: 0.2rem;
-      margin-top: 5rem;
+      margin-top: 8rem;
       }
 
       .ik7 i{
@@ -747,7 +747,7 @@ word-break:break-all;
         color: #00454E;
         padding: 2rem;
       }
-      
+
 
       #logo{
         width: 100%;
@@ -780,11 +780,10 @@ word-break:break-all;
 
     .m0{
       display: grid;
-      grid-template-areas: 
+      grid-template-areas:
       'a b'
       'c d'
       'e f'
       'g h';
       grid-gap: 5rem;
     }
->>>>>>> Stashed changes
