@@ -802,35 +802,20 @@ word-break:break-all;
 
     .footer{
       width: 100%;
-      max-width: 100%;
-      align-content: center;
+      max-width: 50%;
     }
 
     .header{
       width: 100%;
-      max-width: 100%;
-      align-content: center;
+      max-width: 50%;
     }
 
     .burgermenu{
       width: 100%;
-      max-width: 100%;
-      align-content: center;
+      max-width: 50%;
     }
 
     .menu-ikon{
       width: 100%;
-      max-width: 100%;
-    }
-
-    .text{
-      height: 20rem;
-      max-height: 100%;
-      width: 100%;
-      max-width: 20rem;
-      resize: none;
-      border: none;
-      background-color: #CAE4E3;
-      color: #00454E;
-      padding: 2rem;
+      max-width: 50%;
     }
