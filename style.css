@@ -568,6 +568,18 @@ word-break:break-all;
         width: 100%;
       }
 
+    .o1{
+      font-size: 30px;
+    }
+
+    .o2{
+      font-size: 14px;
+    }
+
+    .o3{
+      font-size: 14px;
+    }
+
       .t1 { grid-area: a;}
       .t2 { grid-area: b;}
       .t3 { grid-area: c;}
@@ -698,10 +710,10 @@ word-break:break-all;
       .log2{
         display: grid;
         grid-template-areas:
-        'c'
-        'a'
-        'b';
-        grid-gap: 5px;
+        'a c'
+        'b b';
+        grid-gap: 10rem;
+        margin-top: 5rem;
       }
 
       .log3{
@@ -712,16 +724,59 @@ word-break:break-all;
       .log4{
         width: 100%;
         max-width: 50%;
+        height: 100%;
+        max-height: 5rem;
       }
+
+      .kode-logo{
+        height: 5rem;
+        max-height: 100%;
+        width: 100%;
+        max-width: 20rem;
+        resize: none;
+        border: none;
+        background-color: #CAE4E3;
+        color: #00454E;
+        padding: 2rem;
+      }
+      
 
       #logo{
         width: 100%;
         max-width: 25rem;
+        min-width: 28mm;
       }
 
       .log5{
-        font-size: 30px;
+        font-size: 15px;
         width: 100%;
+<<<<<<< Updated upstream
         max-width: 50%;
         min-width: 28mm;
       }
+=======
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .m1 { grid-area: a;}
+      .m2 { grid-area: b;}
+      .m3 { grid-area: c;}
+      .m4 { grid-area: d;}
+      .m5 { grid-area: e;}
+      .m6 { grid-area: f;}
+      .m7 { grid-area: g;}
+      .m8 { grid-area: h;}
+
+    .m0{
+      display: grid;
+      grid-template-areas: 
+      'a b'
+      'c d'
+      'e f'
+      'g h';
+      grid-gap: 5rem;
+    }
+>>>>>>> Stashed changes
